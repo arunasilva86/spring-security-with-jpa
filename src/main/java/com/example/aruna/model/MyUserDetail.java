@@ -13,7 +13,6 @@ public class MyUserDetail implements UserDetails{
 
     private String userName;
     private String password;
-    private boolean active = true;
     private List<GrantedAuthority> authorities;
 
     public MyUserDetail() {
